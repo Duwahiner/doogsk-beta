@@ -1,0 +1,301 @@
+
+
+@font-face{
+    font-family: aeonik_light;
+    src: url("/fonts/aeonik/aeonik-light.woff");
+  }
+  
+  @font-face{
+    font-family: aeonik_regular;
+    src: url("/fonts/aeonik/aeonik-regular.woff");
+  }
+  @font-face{
+    font-family: aeonik_regular_2;
+    src: url("/fonts/aeonik/aeonik-regular.ttf");
+  }
+  
+  @font-face{
+    font-family: aeonik_medium;
+    src: url("/fonts/aeonik/aeonik-medium.woff");
+  }
+  @font-face{
+    font-family: aeonik_medium_2;
+    src: url("/fonts/aeonik/aeonik-medium.ttf");
+  }
+  
+  @font-face{
+    font-family: aeonik_blod;
+    src: url("/fonts/aeonik/aeonik-bold.woff");
+  }
+  @font-face{
+    font-family: aeonik_blod_2;
+    src: url("/fonts/aeonik/aeonik-bold.ttf");
+  }
+  
+  @font-face{
+    font-family: aeonik_black;
+    src: url("/fonts/aeonik/aeonik-black.woff");
+  }
+  @font-face{
+    font-family: aeonik_black_2;
+    src: url("/fonts/aeonik/aeonik-black.ttf");
+  }
+
+:roo{
+    --gris: #666666;
+    --naranja: #EF9600;
+    --fontSize: 17.4px;
+    --cian: #009ADC;
+}
+
+/* ----------------------------------------------------------------------->>>> ESTILOS HEADER*/
+.conten_header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.conten_cabecera{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.conten_logo_nav{
+    width: 98%;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------------->>>>> LOGO */
+.conten_logo{
+    width: 150px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    height: 95px;
+}
+
+/* ------------------------------------------------------->>>  NAVEGACION */
+.conten_navbar{
+    width: 100%;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.conten_nav{
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.nav_a{
+    width: auto;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: aeonik_light, aeonik_medium_2, sans-serif;
+    line-height: 40px;
+    color: #666666;
+    font-size: 22px;
+    transition: color 0.5s ease;
+}
+.nav_a:hover{
+    color:  #EF9600;
+}
+a{
+    width: auto;
+    height: auto;
+    display: block;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------------------->>> INFO  CONTACTO */
+.conten_info{
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row ;
+}
+.info{
+    width: 150px;
+    height: 40px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: #EF9600;
+    border-radius: 4px;
+}
+.info_span{
+    color: #fff;
+    font-size: 17px;
+    font-family: aeonik_light, aeonik_medium_2, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    line-height: 40px;
+}
+
+/*---------------------------------------------------------------------------------->>> FOOTER*/
+
+.conten_footer{
+    width: 100%;
+    height: auto;
+    background-color: #003A56;
+}
+.conten_footer_element{
+    width: 98%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.conten_logo_footer{
+    width: 426.157px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log_foo{
+    width: 266px;
+    height: 184px;
+    
+}
+
+.conten_empresa_footer{
+    width: 426.157px;
+    height: 400px;
+    margin-top: 60px;
+}
+.conten_empresa{
+    width: 100%;
+    height: auto;
+}
+.conten_title_empresa{
+    width: auto;
+    height: 50px;
+} 
+.title_empresa{
+    width: auto;
+    color: #fff;
+    font-family: aeonik_blod, aeonik_blod_2, sans-serif;
+    font-size: 20.5px;
+    line-height: 50px;
+}
+.conten_contac{
+    width: auto;
+    height: auto;
+    border-left: #009ADC solid 1px;
+    box-sizing: border-box;
+}
+.info_conta{
+    width: auto;
+    height: 30px;
+    display: block;
+    color: #009ADC;
+    font-family: aeonik_regular, aeonik_regular_2, sans-serif;
+    font-size: 14px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.conten_redes{
+    width: auto;
+    height: auto;
+}
+
+.info_redes{
+    width: auto;
+    height: 30px;
+    display: block;
+    font-family: aeonik_regular, aeonik_regular_2, sans-serif;
+    color: #009ADC;
+    font-size: 14px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+.conten_servicios_footer{
+    width: 426.157px;
+    height: 400px;
+    margin-top: 60px;
+}
+.conten_servicios_decrip{
+    width: auto;
+    height: auto;
+}
+.conten_title_servicios{
+    width: auto;
+    height: 50px;
+}
+.title_servicios{
+    width: auto;
+    font-family: aeonik_blod, aeonik_blod_2, sans-serif;
+    color: #fff;
+    font-size: 20.5px;
+    line-height: 50px;
+}
+.conten_servicios{
+    width: auto;
+    height: auto;
+    border-left: #009ADC solid 1px;
+    box-sizing: border-box;
+}
+.info_servicios{
+    width: auto;
+    height: 30px;
+    display: block;
+    font-family: aeonik_regular, aeonik_regular_2, sans-serif;
+    color: #009ADC;
+    font-size: 14px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+.contes_desing{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF9600;
+}
+
+.contes_desing span{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    font-family: aeonik_regular, aeonik_regular_2, sans-serif;
+    color: #fff;
+    font-size: 17.4px;
+    
+}
+
+/* ---------------------------------------------------------------->>> STYLES SCROLL */
+::-webkit-scrollbar {
+    width: 10px;
+    display: block;
+}
+::-webkit-scrollbar-thumb {
+    background: #5BC5F2;
+    border-radius: 5px;
+    transition: all 3s;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #009ADC;
+}
+::-webkit-scrollbar-track{
+    background: #D4EDFC;
+    border-radius: 5px;
+  }

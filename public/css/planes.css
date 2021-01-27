@@ -1,0 +1,165 @@
+/*---------------------------------------------------------------------------------->>> SLIDER SHOW PLANES*/
+.activated_doogsk{
+    color: none;
+}
+
+.conten_sli_planes{
+    width: 100%;
+    height: 527px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #009ADC url("/images/fondo-slider-show-planes.png") center center no-repeat fixed;
+    background-size: cover;
+  } 
+  
+.conten_slider_show_planes{
+    width: 70%;
+    height: autos;
+    color: #fff;
+}
+
+.title_show_planes{
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.conten_slider_show_botton_planes{
+    width: 300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 6px;
+    border: solid 2px#fff;
+    box-sizing: content-box;
+}
+
+.slider_show_span_1_planes{
+  width: 300px;
+  height: 60px;
+  display: block;
+  font-family: aeonik_medium, aeonik_medium_2, sans-serif;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #E74610;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease-out all 0.4s;
+
+}
+.slider_show_span_1_planes:hover{
+background-color: transparent;
+color: #fff;
+}
+.conten_bajar_planes{
+    width: 50px;
+    height: auto;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bajar_span_planes{
+    color: #fff;
+    font-weight: 900;
+}
+
+
+/*----------------------------------------------------------------------------------->>>> CONTENIDO PAGINA*/
+
+/*---------------------------------------------------------------------------->>> DATA 1*/
+.conten_data_1_planes{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_data_1_planes{
+    color: #fff;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+}
+.color_naranja{
+    background-color: #E74610;
+}
+
+/*-------------------------------------------------------------------------------------->>> PLANES DOOGSK*/
+.conten_planes-doogsk{
+ width: 100%;
+ height: 600px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+}
+.conten_planes_full{
+    width: 87.9%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+}
+.planes-doogsk_full{
+    width: 400px;
+    height: 270px;
+}
+.conten_planes-doogsk_title{
+    width: 100%;
+    height: 100px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planes-doogsk_full_title{
+    font-family: aeonik_blod, aeonik_medium_2, sans-serif;
+    color: #fff;
+    font-size: 40px;
+}
+.conten_planes-doogsk_detalles{
+    width: 100%;
+    height: 170px;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.doogsk_full_detalles{
+    font-family: aeonik_regular, aeonik_medium_2, sans-serif;
+    color: #666666;
+    font-size: 18px;
+    line-height:25px;
+    text-align: center;
+}
+.gris_oscuro{
+    background-color:#F1EFEF;
+}
+.gris_claro{
+    background-color:#F7F7F6;
+}
+
+.black_2{
+    font-size: 30px;
+}
+.black{
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 50px;
+    color: #000;
+}
+.doogsk_naranja{
+    background-color: #E74610;
+}
+.doogsk_verde{
+    background-color: #A4C005;
+}
+.doogsk_fucsia{
+    background-color: #D5007F;
+}
+.doogsk_cian{
+    background-color: #009ADC;
+}

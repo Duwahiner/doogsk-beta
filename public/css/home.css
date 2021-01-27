@@ -1,0 +1,477 @@
+
+/*---------------------------------------------------------------------------------->>> SLIDER SHOW HOME*/
+.activated_home{
+    color: none;
+}
+
+.conten_sli_home{
+    width: 100%;
+    height: 527px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #009ADC url("/images/fondo-slider-show.png") center center no-repeat fixed;
+    background-size: cover;
+  }
+  
+.conten_slider_show{
+    max-width: 1200px;
+    width: 70%;
+    height: 450px;
+    color: #fff;
+}
+
+.title_show{
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 120px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.conten_slider_show_botton{
+    width: 300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 6px;
+    border: solid 2px#fff;
+    box-sizing: content-box;
+}
+.descrip_show{
+    font-family: aeonik_blod, aeonik_blod_2, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.slider_show_span_1{
+  width: 300px;
+  height: 60px;
+  display: block;
+  font-family: aeonik_medium, aeonik_medium_2, sans-serif;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #E74610;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease-out all 0.4s;
+
+}
+.slider_show_span_1:hover{
+background-color: transparent;
+color: #fff;
+}
+.conten_bajar{
+    width: 50px;
+    height: auto;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bajar_span{
+    color: #fff;
+    font-weight: 900;
+}
+
+
+
+/*----------------------------------------------------------------------------------->>>> CONTENIDO PAGINA*/
+
+/*---------------------------------------------------------------------------->>> DATA 1*/
+.conten_data_1{
+    width: 100%;
+    height: 350px;
+    background-color: #E74610;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_data_1{
+    color: #fff;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+}
+
+/*--------------------------------------------------------------------------------------->>> DATA 2*/
+.conten_data_2{
+    width: 100%;
+    height: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.conten_prod_bott{
+    width: 98%;
+    width: auto;
+    height: auto;
+}
+.conten_prod{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.produc_1{
+    width: 318px;
+    height: 352px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------------------------------------------------------->>BOTON CIAN*/
+.conten_bott_cian{
+    width: auto;
+    height: auto;
+}
+.conten_slider_show_cian{
+  width: 300px;
+  height: 60px;
+  margin-left: auto;
+  margin-right:auto;
+  border-radius: 6px;
+  border: solid 2px #009ADC;
+  box-sizing: content-box;
+}
+
+.slider_show_span_1_cian{
+    width: 300px;
+    height: 60px;
+    display: block;
+    font-family: aeonik_medium, aeonik_medium_2, sans-serif;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #fff;
+    background-color: #009ADC;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: ease-out all 0.4s;
+
+}
+.slider_show_span_1_cian:hover{
+  background-color: transparent;
+  color: #009ADC;
+}
+
+/*----------------------------------------------------------------------------------------->>> DATA 3*/
+.conten_data_3{
+    width: 100%;
+    height: 800px;
+    background: #009ADC url("/images/fondo-recreacion-perros.png") center center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_data_3{
+    color: #fff;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+}
+
+/*-------------------------------------------------------------------------------->>>>  DATA 4*/
+.conten_data_4{
+    width: 100%;
+    height: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #fff url("/images/fondo-figuras.png") center center no-repeat;
+    background-size: cover;
+}
+.conten_prod_bott{
+    width: 94.0696812454%;
+    width: auto;
+    height: auto;
+}
+.conten_prod_data4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.title_data_4{
+    color: #000;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+}
+
+/*-------------------------------------------------------------------------------->>> BOTON NARANJA*/
+.conten_bott_naranja{
+    width: auto;
+    height: auto;
+}
+.conten_slider_show_naranja{
+    width: 300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 6px;
+    border: solid 2px #E74610;
+    box-sizing: content-box;
+  }
+  
+  .slider_show_span_1_naranja{
+      width: 300px;
+      height: 60px;
+      display: block;
+      font-family: aeonik_medium, aeonik_medium_2, sans-serif;
+      text-align: center;
+      line-height: 60px;
+      font-size: 20px;
+      margin-right: 10px;
+      color: #fff;
+      background-color: #E74610;
+      border-radius: 3px;
+      cursor: pointer;
+      transition: ease-out all 0.4s;
+  
+  }
+  .slider_show_span_1_naranja:hover{
+    background-color: transparent;
+    color: #E74610;
+  }
+
+  
+/*-------------------------------------------------------------------------------->>>>  DATA 5*/
+.conten_data_1_data5{
+    width: 100%;
+    height: 350px;
+    background-color: #FBCB00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_data_1_data5{
+    color: #fff;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+}
+
+/*-------------------------------------------------------------------------------->>>>  DATA 6*/
+.conten_data_6{
+    width: 100%;
+    height: 980px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #fff url("/images/fondo-figuras.png") center center no-repeat;
+    background-size: cover;
+}
+.conten_prod_bott_data6{
+    width: 98%;
+    width: auto;
+    height: auto;
+}
+.conten_prod_data6{
+    max-width: 1200px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title_data6{
+    color: #000;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------------------->>>>  DATA 7*/
+.conten_data7{
+    width: 100%;
+    height: 526px;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.conten_services_data7{
+    width: 98%;
+    height: 526px;
+    display: flex;
+    justify-content: center;
+}
+.conten_image_data7{
+    width: auto;
+    height: 526px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 60px;
+
+}
+.conten_title_services_data7{
+    width: 50%;
+    height: 526px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten_sevicses_title_data7{
+    width: 100%;
+}
+
+.title_services_data7{
+    color: #000;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.verMas_data7{
+    width: 200px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: aeonik_medium, aeonik_medium_2, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: solid 2px #009ADC;
+    box-sizing: content-box;
+    background-color: #009ADC;
+    transition: ease-out all 0.4s;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.verMas_data7:hover{
+  background-color: transparent;
+  color: #009ADC;
+}
+
+/*-------------------------------------------------------------------------------->>>>  DATA 8*/
+.conten_data8{
+    width: 100%;
+    height: 526px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.conten_services_data8{
+    width: 98%;
+    height: 526px;
+    display: flex;
+    justify-content: center;
+}
+.conten_image_data8{
+    width: 50%;
+    height: 526px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 60px;
+
+}
+.conten_title_services_data8{
+    width: 50%;
+    height: 526px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten_sevicses_title_data7{
+    width: 100%;
+}
+
+.title_services_data8{
+    color: #000;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.verMas_data8{
+    width: 200px;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-family: aeonik_medium, aeonik_medium_2, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: solid 2px #009ADC;
+    box-sizing: content-box;
+    background-color: #009ADC;
+    transition: ease-out all 0.4s;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.verMas_data8:hover{
+  background-color: transparent;
+  color: #009ADC;
+}
+
+/*-------------------------------------------------------------------------------->>>>  DATA 9*/
+.conten_data9{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #009ADC url("/images/fondo-gatos.png") center center no-repeat;
+    background-size: cover;
+}
+.conten_prod_bott_data9{
+    width: 98%;
+    width: auto;
+    height: auto;
+}
+
+/*-------------------------------------------------------------------------------->>>>  BOTON BLANCO 2*/
+.conten_bott_data9{
+    width: auto;
+    height: auto;
+}
+
+.conten_botton_blanco{
+    width: 300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 6px;
+    border: solid 2px#fff;
+    box-sizing: content-box;
+}
+.botton_blanco{
+  width: 300px;
+  height: 60px;
+  display: block;
+  font-family: aeonik_medium, aeonik_medium_2, sans-serif;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #E74610;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease-out all 0.4s;
+
+}
+.botton_blanco:hover{
+background-color: transparent;
+color: #fff;
+}

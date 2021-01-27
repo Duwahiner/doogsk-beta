@@ -1,0 +1,173 @@
+/*---------------------------------------------------------------------------------->>> SLIDER SHOW CONTACTO*/
+:roo{
+    --color-cian: #009ADC;
+}
+.activated_doogsk{
+    color: none;
+}
+
+.conten_sli_contact{
+    width: 100%;
+    height: 527px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #009ADC url("/images/fondo-slider-show-contacto.png") center center no-repeat fixed;
+    background-size: cover;
+  } 
+  
+.conten_slider_show_contact{
+    width: 70%;
+    height: autos;
+    color: #fff;
+}
+
+.title_show_contact{
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.conten_slider_show_botton_contact{
+    width: 300px;
+    height: 60px;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 6px;
+    border: solid 2px#fff;
+    box-sizing: content-box;
+}
+
+.slider_show_span_1_contact{
+  width: 300px;
+  height: 60px;
+  display: block;
+  font-family: aeonik_medium, aeonik_medium_2, sans-serif;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  margin-right: 10px;
+  color: #E74610;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease-out all 0.4s;
+
+}
+.slider_show_span_1_contact:hover{
+background-color: transparent;
+color: #fff;
+}
+.conten_bajar_contact{
+    width: 50px;
+    height: auto;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bajar_span_planes{
+    color: #fff;
+    font-weight: 900;
+}
+
+
+/*----------------------------------------------------------------------------------->>>> CONTENIDO PAGINA*/
+
+/*---------------------------------------------------------------------------->>> DATA 1*/
+.conten_data_1_contact{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title_data_1_contact{
+    color: #fff;
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    font-size: 60px;
+}
+.color_cian{
+    background-color: #009ADC;
+}
+
+/*----------------------------------------------------------------------------------->>>> FORMULARIO DOOGSK */
+.mi_form{
+    width: auto;
+    height: auto;
+}
+.conten_miform_doogsk{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.conten_miform_doogsk_element{
+    max-width: 820px;
+    width: 58.6%;
+    height: auto;
+}
+.conten_doogsk_element{
+    width: 100%;
+    height: 100px;
+}
+.conten_doogsk_element_label_input{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.element_label{
+    font-family: aeonik_black, aeonik_black_2, sans-serif;
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+}
+.element_imput{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-family: aeonik_regular, aeonik_regular_2, sans-serif;
+    color: #6F706F;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: solid 2px #CBCBCB;
+    box-sizing: content-box;
+}
+.element_imput:focus{
+    border-bottom: solid 2px #009ADC;
+}
+::placeholder{
+    color: #CBCBCB;
+    font-family: aeonik_light, sans-serif;
+}
+.conten_doogsk_element_botton-submit{
+    width: 100%;
+    height: 70px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.element_imput-botton-submit{
+    width: 100%;
+    height: 70px;
+    outline: none;
+    font-family: aeonik_blod, aeonik_regular_2, sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #E74610;
+    box-sizing: content-box;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.element_imput-botton-submit:hover{
+    background-color: #EE720D;
+}
